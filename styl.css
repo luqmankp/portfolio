@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+
+/* copied-code */
+
+body {
+    margin: 0px;
+    scroll-behavior:smooth;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: large;
+
+}
+
+
+
+div .navbar-collapse ul li a.active,
+div .navbar-collapse ul li a:hover {
+    border-radius: 0.2rem;
+    border-bottom: 0.2rem solid #011aff;
+    transition: .3s;
+    transform: scale(1.03);
+}
+
+#home {
+    height: 49rem;
+
+}
+
+.home {
+    padding-top: 4rem;
+}
+
+.home #particles-js {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.home .content h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: #002057;
+}
+
+.home .content h2 .hithere {
+    font-size: 3.5rem;
+    color: #002057;
+}
+
+.home .content h2 span {
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: #f37500;
+}
+
+.typing-text {
+    font-size: 2.5rem;
+    color: rgb(148, 9, 9);
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.home .btn {
+    margin-top: 1rem;
+    position: absolute;
+    line-height: 0;
+    padding: 1rem 2rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+    font-family: "Nunito", sans-serif;
+}
+
+.home .btn span {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.home .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.home .btn:hover {
+    background: #1a047e;
+    color: white;
+}
+
+.home .btn:hover i {
+    transform: translateX(5px);
+}
+
+/* copied-code */
+.main-prt-img {
+    padding-top: 3rem;
+}
+
+.header-img {
+    transition: 1s;
+    border-radius: 60%;
+
+}
+
+.header-img:hover {
+    transform: scale(1.05);
+}
+
+.submitbtn,
+.resumebtn {
+    margin-top: 2%;
+}
+
+.submitbtn,
+.resumebtn .btn {
+    margin-top: 1rem;
+    /* position: absolute; */
+    line-height: 0;
+    padding: 1rem 2rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+
+}
+
+.submitbtn,
+.resumebtn .btn span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.submitbtn i,
+.resumebtn .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.submitbtn:hover,
+.resumebtn .btn:hover {
+    color: #fff;
+    background: #1a047e;
+}
+
+.submitbtn:hover i,
+.resumebtn .btn:hover i {
+    transform: translateX(5px);
+}
+
+/* my code */
+
+
+/* about section */
+
+
+.aboutcontainer {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.socialicon {
+    /* background-color: rgb(51, 211, 255); */
+    border-radius: 50%;
+    padding-left: .56rem;
+    padding-right: .56rem;
+    color: rgb(0, 0, 0);
+    transition: .3s;
+
+
+}
+
+.socialicon1,
+.socialicon2,
+.socialicon3,
+.socialicon4 {
+    text-align: center;
+}
+
+
+
+.heading2 {
+    padding-top: 2%;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(27, 51, 122);
+
+}
+
+.fa-solid {
+    color: #f37500;
+}
+
+.image2 {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.image2img {
+    width: 75%;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.80);
+}
+
+.image2img:hover {
+    scale: 1.03;
+    box-shadow: 0px 0px 15px .5px rgba(0, 0, 0, 0.75);
+}
+
+.h3sec2 {
+    font-weight: bold;
+    font-family: "Nunito";
+    margin-bottom: 0;
+    padding-left: 1%;
+}
+
+.spansec2 {
+    color: #1a047e;
+    padding-left: 1%;
+}
+
+.aboutDiscription {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-family: "Nunito";
+
+}
+
+.spansec2row2 {
+    color: #1a047e;
+}
+
+#skills {
+    background-color: #8ef0ff;
+}
+
+.skillshding {
+    margin-top: 3rem;
+}
+
+.skillscontainer {
+
+    background-color: #6de6f8;
+    box-shadow: inset 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
+    margin-bottom: 5rem;
+}
+
+/* .skillscontainer:hover {
+    box-shadow: 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
+} */
+
+.skill-icon-box {
+    padding: 3%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: .3s;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.skill-icon-box:hover {
+    box-shadow: 0px 0px 22px -7px rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.8);
+    scale: 1.1;
+    color: white;
+}
+
+
+/* contact section code */
+.contact-box {
+    box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.75);
+}
+
+.submitbtn {
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: solid;
+    width: 100%;
+
+}
+
+/* qualification section */
+
+
+.expmainbox {
+    box-shadow: inset 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
+}
+
+.expinsidbox {
+    transition: .5s;
+}
+
+.expinsidbox:hover {
+    box-shadow: 0px 0px 30px -2px rgba(0, 0, 0, 0.05);
+}
+
+.edumainbox {
+    padding-left: 10%;
+    box-shadow: inset 0px 0px 22px -7px rgba(0, 0, 0, 0.63);
+}
+
+.educard {
+    transition: .4s;
+}
+
+.educard:hover {
+    box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.75);
+    scale: 1.01;
+}
+
+.eduimg {
+    margin-top: 25%;
+    width: 100%;
+}

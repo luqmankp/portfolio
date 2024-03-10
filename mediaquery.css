@@ -1,0 +1,147 @@
+@media(max-width:420px) {
+    .home .content h2 .hithere {
+        font-size: 1.6rem;
+        padding-top: 0%;
+    }
+
+    .home {
+        padding-top: 8%;
+    }
+
+    .home .content h2,
+    .home .content h2 span {
+        font-size: 2.6rem;
+    }
+
+    .typing-text {
+        font-size: 1.2rem;
+    }
+
+    .home a.btn {
+        visibility: hidden;
+    }
+
+    .mainprtimg {
+        margin-bottom: 4%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-img {
+        width: 95%;
+    }
+
+    .aboutcontainer {
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+
+    .image2img {
+        margin-top: 2rem;
+    }
+
+    .h3sec2 {
+        font-size: 1.2rem;
+
+    }
+
+    .spansec2,
+    .aboutDiscription,
+    .spansec2row2 {
+        font-size: .9rem;
+
+    }
+
+    .aboutDiscriptionContat {
+        text-align: center;
+    }
+
+    .resumebtn .btn,
+    .resumebtn .btn span,
+    .resumebtn .btn i {
+        font-size: 1.2rem;
+        padding: .4rem;
+    }
+
+    .resumebtn .btn {
+        margin-left: 29%;
+    }
+
+    .resumebtn .btn i {
+        padding-left: 0;
+    }
+
+    .resumebtn .btn span {
+        padding-right: 0;
+    }
+
+    .skillshding {
+        margin-top: 0;
+    }
+
+    .contactimg,
+    .form-control {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .submitbtn {
+        padding: .6rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: .7rem;
+    }
+
+    .expinsidbox p {
+        font-size: 13px;
+    }
+
+    .eduimg {
+        margin-top: 0%;
+    }
+
+
+    .typing-text::after {
+        content: "";
+        position: absolute;
+        left: 6%;
+        height: 4.2%;
+        width: 11rem;
+        background: white;
+        border-left: 2px solid red;
+        animation: typing 5s steps(25) infinite;
+    }
+
+    @keyframes typing {
+        100% {
+            left: 12.52rem;
+        }
+
+    }
+
+
+
+
+}
+
+@media (min-width:1020px) {
+    .typing-text::after {
+        content: "";
+        position: absolute;
+        left: 6%;
+        height: 9%;
+        width: 29rem;
+        background: white;
+        border-left: 2px solid red;
+        animation: typing 5s steps(25) infinite;
+    }
+
+    @keyframes typing {
+        100% {
+            left: 32rem;
+        }
+
+    }
+}

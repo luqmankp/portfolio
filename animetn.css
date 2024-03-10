@@ -1,0 +1,63 @@
+.content h2 {
+    animation: moveup 1s ease-in-out 0s 1;
+}
+
+.content p {
+    animation: moveup 1.5s ease-in-out 0s 1;
+}
+
+.content a {
+    animation: moveup 2s ease-in-out 0s 1;
+}
+
+.mainprtimg img {
+    animation: moveup 1.8s ease-in-out 0s 1;
+}
+
+.socialicon1 {
+    animation: moveup 1.5s ease-in-out 0s 1;
+}
+
+.socialicon2 {
+    animation: moveup 1.7s ease-in-out 0s 1;
+}
+
+.socialicon3 {
+    animation: moveup 2s ease-in-out 0s 1;
+}
+
+.socialicon4 {
+    animation: moveup 2.4s ease-in-out 0s 1;
+}
+
+@keyframes moveup {
+    0% {
+        transform: translateY(100px);
+    }
+}
+
+.heading2 {
+    animation: moveleft 1.5s ease-in-out 0s 1;
+}
+
+.h3sec2 {
+    animation: moveleft 1.7s ease-in-out 0s 1;
+}
+
+.aboutDiscription {
+    animation: moveleft 2s ease-in-out 0s 1;
+}
+
+.aboutDiscriptionContat {
+    animation: moveleft 2.4s ease-in-out 0s 1;
+}
+
+.resumebtn {
+    animation: moveleft 2.6s ease-in-out 0s 1;
+}
+
+@keyframes moveleft {
+    0% {
+        transform: translateX(100px);
+    }
+}
